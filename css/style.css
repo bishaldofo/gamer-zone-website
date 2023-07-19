@@ -425,6 +425,7 @@ footer ul{
    display: flex;
    flex-wrap: wrap;
    align-items: center;
+   justify-content: center;
 }
 
 footer ul li{
@@ -469,11 +470,6 @@ footer .footer-nav-bottom ul li a{
 .footer-nav-top,.footer-nav-bottom{
    margin-bottom: 20px;
 }
-
-
-
-
-
 
 
 /* Mobile device media  */
