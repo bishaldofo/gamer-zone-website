@@ -41,10 +41,32 @@ body{
    border-radius: 48px;
    cursor: pointer;
    margin: 20px 0;
+   border: 2px solid transparent;
 }
 
 .bg-color{
    background: #4EC5F7;
+}
+
+.btn-primary:hover{
+   color: #FF42A5;
+   border: 2px solid #FF42A5;
+   background-color: transparent;
+   background-image: unset;
+}
+
+.bg-color:hover{
+   color: #4EC5F7;
+   border: 2px solid #4EC5F7;
+   background-color: transparent;
+}
+
+.banner-content-wrapper table td a, .btn-primary, .footer-nav-bottom ul li a, ul li a{
+   transition: all ease-in-out 0.3s;
+}
+
+.footer-nav-bottom ul li a:hover, .banner-content-wrapper table td a:hover, ul li a:hover{
+   color: #FF42A5;
 }
 
 /* header styles */
